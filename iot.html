@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>IoT</title>
+<meta name="referrer" content="same-origin">
+<meta name="viewport" content="width=960">
+<style>html,body{-webkit-text-zoom:reset !important;-ms-text-size-adjust:none !important;-moz-text-size-adjust:none !important;-webkit-text-size-adjust:none !important}@font-face{font-display:block;font-family:"PT Sans";src:url('css/PT_Sans-Web-Regular.woff2') format('woff2'),url('css/PT_Sans-Web-Regular.woff') format('woff');font-weight:400}@font-face{font-display:block;font-family:"Nunito";src:url('css/Nunito-Bold.woff2') format('woff2'),url('css/Nunito-Bold.woff') format('woff');font-weight:700}@font-face{font-display:block;font-family:"Muli";src:url('css/Muli-Regular.woff2') format('woff2'),url('css/Muli-Regular.woff') format('woff');font-weight:400}@font-face{font-display:block;font-family:"PT Sans";src:url('css/PT_Sans-Web-BoldItalic.woff2') format('woff2'),url('css/PT_Sans-Web-BoldItalic.woff') format('woff');font-weight:700;font-style:italic}body>div{font-size:0}p, span,h1,h2,h3,h4,h5,h6{margin:0;word-spacing:normal;word-wrap:break-word;-ms-word-wrap:break-word;pointer-events:auto;max-height:1000000000px}sup{font-size:inherit;vertical-align:baseline;position:relative;top:-0.4em}sub{font-size:inherit;vertical-align:baseline;position:relative;top:0.4em}ul{display:block;word-spacing:normal;word-wrap:break-word;list-style-type:none;padding:0;margin:0;-moz-padding-start:0;-khtml-padding-start:0;-webkit-padding-start:0;-o-padding-start:0;-padding-start:0;-webkit-margin-before:0;-webkit-margin-after:0}li{display:block;white-space:normal}li p{-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;-o-user-select:none;user-select:none}form{display:inline-block}a{text-decoration:inherit;color:inherit;-webkit-tap-highlight-color:rgba(0,0,0,0)}textarea{resize:none}.shm-l{float:left;clear:left}.shm-r{float:right;clear:right}.whitespacefix{word-spacing:-1px}html{font-family:sans-serif}body{font-size:0;margin:0}audio,video{display:inline-block;vertical-align:baseline}audio:not([controls]){display:none;height:0}[hidden],template{display:none}a{background:0 0;outline:0}b,strong{font-weight:700}dfn{font-style:italic}h1,h2,h3,h4,h5,h6{font-size:1em;line-height:1;margin:0}img{border:0}svg:not(:root){overflow:hidden}button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}button{overflow:visible}button,select{text-transform:none}button,html input[type=button],input[type=submit]{-webkit-appearance:button;cursor:pointer;box-sizing:border-box;white-space:normal}input[type=password],input[type=text],textarea{-webkit-appearance:none;appearance:none;box-sizing:border-box}button[disabled],html input[disabled]{cursor:default}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}input{line-height:normal;border-radius:0}input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0}input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button{height:auto}input[type=search]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none}textarea{overflow:auto;box-sizing:border-box;border-color:#ddd}optgroup{font-weight:700}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}:-webkit-full-screen-ancestor:not(iframe){-webkit-clip-path:initial !important}
+html { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }.menu-content{cursor:pointer;position:relative}li{-webkit-tap-highlight-color:rgba(0,0,0,0)}
+#b{background-color:#fff}.v16{display:block;*display:block;zoom:1;vertical-align:top}.ps42{margin-top:10px;top:0;position:-webkit-sticky;position:-moz-sticky;position:-o-sticky;position:-ms-sticky;position:sticky}.s53{width:100%;min-width:960px;min-height:292px}.c44{z-index:1;pointer-events:none}.ps43{display:inline-block;width:0;height:0}.v17{display:inline-block;*display:inline;zoom:1;vertical-align:top}.ps44{position:relative;margin-top:0}.s54{width:100%;min-width:960px;min-height:72px}.c45{z-index:2;border:0;background-color:#268bd2;background-clip:padding-box}.ps45{position:relative;margin-top:-57px}.s55{min-width:960px;width:960px;margin-left:auto;margin-right:auto}.ps46{position:relative;margin-left:0;margin-top:0}.s56{min-width:960px;width:960px;min-height:277px}.v18{display:inline-block;*display:inline;zoom:1;vertical-align:top;overflow:visible}.ps47{position:relative;margin-left:0;margin-top:95px}.s57{min-width:200px;width:200px;min-height:182px;height:182px}.c47{pointer-events:auto}.v19{display:inline-block;*display:inline-block;zoom:1;vertical-align:top}.m4{padding:0px 0px 0px 0px}.ml4{outline:0}.s58{min-width:200px;width:200px;min-height:38px;height:38px}.mcv4{display:inline-block}.s59{min-width:200px;width:200px;min-height:38px}.c48{pointer-events:none;border:0;background-color:#cddee8;background-clip:padding-box}.v20{display:inline-block;*display:inline;zoom:1;vertical-align:top;overflow:hidden}.s60{min-width:200px;width:200px;min-height:37px;height:37px}.p10{padding-top:0;text-indent:10px;padding-bottom:0;padding-right:0;text-align:left}.f13{font-family:"PT Sans";font-size:22px;font-weight:400;font-style:normal;text-decoration:none;text-transform:none;color:#dc322f;background-color:initial;line-height:32px;letter-spacing:normal;text-shadow:none}.ps48{position:relative;margin-left:0;margin-top:10px}.c49{pointer-events:none;border:0;background-color:#cddee8;background-clip:padding-box}.c50{pointer-events:none;border:0;background-color:#cddee8;background-clip:padding-box}.c51{pointer-events:none;border:0;background-color:#cddee8;background-clip:padding-box}.ps49{position:relative;margin-left:23px;margin-top:57px}.s61{min-width:729px;width:729px;min-height:48px;height:48px}.c52{z-index:5;pointer-events:auto}.p11{padding-top:0;padding-bottom:0;text-align:right;text-indent:0;padding-right:0}.f14{font-family:Nunito;font-size:25px;font-weight:700;font-style:normal;text-decoration:none;text-transform:none;color:#000;background-color:initial;line-height:47px;letter-spacing:normal;text-shadow:none}.f15{font-family:Muli;font-size:25px;font-weight:400;font-style:normal;text-decoration:none;text-transform:none;color:#000;background-color:initial;line-height:44px;letter-spacing:normal;text-shadow:none}.ps50{position:relative;margin-left:-304px;margin-top:0}.s62{min-width:312px;width:312px;min-height:104px;height:104px}.c53{z-index:3;pointer-events:auto}.p12{padding-top:0;text-indent:0;padding-bottom:0;padding-right:0;text-align:left}.f16{font-family:"PT Sans";font-size:29px;font-weight:700;font-style:italic;text-decoration:none;text-transform:none;color:#dc322f;background-color:initial;line-height:52px;letter-spacing:normal;text-shadow:none}.ps51{position:relative;margin-top:-301px}.s63{pointer-events:none;min-width:960px;width:960px;margin-left:auto;margin-right:auto}.s64{width:296px;margin-left:0}.s65{min-width:296px;width:296px;min-height:90px;height:90px}.c54{z-index:6;pointer-events:auto}.i11{position:absolute;left:0;width:296px;height:88px;top:1px;-webkit-transform:translate3d(0,0,0);border:0}.i12{width:100%;height:100%;display:inline-block;-webkit-transform:translate3d(0,0,0)}.ps52{position:relative;margin-top:28px}.s66{width:735px;margin-left:7px}.ps53{position:relative;margin-left:220px;margin-top:0}.s67{min-width:515px;width:515px;min-height:409px}.ps54{position:relative;margin-left:0;margin-top:65px}.s68{min-width:493px;width:493px;min-height:344px}.w1{line-height:0}.ps55{position:relative;margin-left:41px;margin-top:0}.s69{min-width:193px;width:193px;min-height:167px;height:167px}.c55{z-index:9;pointer-events:auto}.i13{position:absolute;left:0;width:193px;height:167px;top:0;-webkit-transform:translate3d(0,0,0);border:0}.ps56{position:relative;margin-left:0;margin-top:23px}.s70{min-width:493px;width:493px;min-height:154px;height:154px}.c56{z-index:10;pointer-events:auto}.i14{position:absolute;left:14px;width:464px;height:154px;top:0;-webkit-transform:translate3d(0,0,0);border:0}.ps57{position:relative;margin-left:-259px;margin-top:0}.s71{min-width:281px;width:281px;min-height:298px;height:298px}.c57{z-index:8;pointer-events:auto}.i15{position:absolute;left:0;width:281px;height:208px;top:45px;-webkit-transform:translate3d(0,0,0);border:0}.ps58{position:relative;margin-left:0;margin-top:98px}.s72{min-width:193px;width:193px;min-height:186px;height:186px}.c58{z-index:7;pointer-events:auto}.i16{position:absolute;left:4px;width:186px;height:186px;top:0;-webkit-transform:translate3d(0,0,0);border:0}.c59{display:inline-block;position:relative;margin-left:0;margin-top:0}.menu-device{background-color:rgb(0,0,0);display:none}</style>
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon-5326e3.png">
+<meta name="msapplication-TileImage" content="images/mstile-144x144-fb0257.png">
+<link rel="manifest" href="manifest.json" crossOrigin="use-credentials">
+<script>function ens(e){e.setAttribute("onload",null),e.media="all",e.rel="stylesheet";var t=window.location.hash;t.length>1&&setTimeout(function(){var e=document.querySelectorAll('[name="'+t.slice(1)+'"]')[0],o=0;if(e.offsetParent)do{o+=e.offsetTop}while(e=e.offsetParent);window.scrollTo(0,o)},100)}
+</script>
+<link as="style" onload="ens(this)" rel="preload" href="css/site.88a428.css">
+<noscript><link rel="stylesheet" href="css/site.88a428.css"></noscript>
+<!--[if lte IE 7]>
+<link rel="stylesheet" href="css/site.88a428-lteIE7.css" type="text/css">
+<![endif]-->
+<script>!function(t){var e=!1;try{e=t.document.createElement("link").relList.supports("preload")}catch(t){}if(!e)for(var n=t.document.getElementsByTagName("link"),a=0;a<n.length;a++){var r=n[a];"preload"===r.rel&&"style"===r.getAttribute("as")&&function(t){function e(){t.getAttribute("data-l")||(t.setAttribute("data-l",!0),t.addEventListener?t.removeEventListener("load",e):t.attachEvent&&t.detachEvent("onload",e),ens(t))}t.addEventListener?t.addEventListener("load",e):t.attachEvent&&t.attachEvent("onload",e),setTimeout(function(){t.rel="stylesheet",t.media="nl x"}),setTimeout(e,3e3)}(r)}}(this);
+</script>
+</head>
+<body id="b">
+<div class="v16 ps42 s53 c44">
+<div class="ps43">
+</div>
+<div class="v17 ps44 s54 c45"></div>
+<div class="ps45 v16 s55">
+<div class="v17 ps46 s56 c46">
+<div class="v18 ps47 s57 c47">
+<ul class="menu-dropdown v19 ps46 s57 m4" id="m1">
+<li class="v17 ps46 s58 mit4">
+<a href="./" class="ml4"><div class="menu-content mcv4"><div class="v17 ps46 s59 c48"><div class="v20 ps46 s60 c47"><p class="p10 f13">Home</p></div></div></div></a>
+</li>
+<li class="v17 ps48 s58 mit4">
+<a href="fan-shop.html" class="ml4"><div class="menu-content mcv4"><div class="v17 ps46 s59 c49"><div class="v20 ps46 s60 c47"><p class="p10 f13">Fan-Shop</p></div></div></div></a>
+</li>
+<li class="v17 ps48 s58 mit4">
+<a href="ge0-database.html" class="ml4"><div class="menu-content mcv4"><div class="v17 ps46 s59 c50"><div class="v20 ps46 s60 c47"><p class="p10 f13">GE0 Database</p></div></div></div></a>
+</li>
+<li class="v17 ps48 s58 mit4">
+<a href="#" class="ml4"><div class="menu-content mcv4"><div class="v17 ps46 s59 c51"><div class="v20 ps46 s60 c47"><p class="p10 f13">IoT</p></div></div></div></a>
+</li>
+</ul>
+</div>
+<div class="v20 ps49 s61 c52">
+<p class="p11"><span class="f14">+ + + + + + WEB Frontend</span><span class="f15">&nbsp;</span></p>
+</div>
+<div class="v20 ps50 s62 c53">
+<p class="p12 f16">DemoPage for OpenShift</p>
+</div>
+</div>
+</div>
+</div>
+<div class="ps51 v16 s63">
+<div class="s64">
+<div class="v17 ps46 s65 c54">
+<picture class="i12">
+<source srcset="images/ibm_logo-r-_redhat_lockup_horiz_rev_color_rgb-296.png 1x, images/ibm_logo-r-_redhat_lockup_horiz_rev_color_rgb-592.png 2x">
+<img src="images/ibm_logo-r-_redhat_lockup_horiz_rev_color_rgb-296.png" class="js8 i11">
+</picture>
+</div>
+</div>
+</div>
+<div class="ps52 v16 s63">
+<div class="s66">
+<div class="v17 ps53 s67 c46">
+<div class="v17 ps54 s68 w1">
+<div class="v17 ps55 s69 c55">
+<picture class="i12">
+<source srcset="images/eingesetztes-bild-193.png 1x">
+<img src="images/eingesetztes-bild-193.png" class="js9 i13">
+</picture>
+</div>
+<div class="v17 ps56 s70 c56">
+<picture class="i12">
+<source srcset="images/eingesetztes-bild-464.png 1x, images/eingesetztes-bild-928.png 2x">
+<img src="images/eingesetztes-bild-464.png" class="js10 i14">
+</picture>
+</div>
+</div>
+<div class="v17 ps57 s71 c57">
+<picture class="i12">
+<source srcset="images/eingesetztes-bild-281.png 1x, images/eingesetztes-bild-562.png 2x">
+<img src="images/eingesetztes-bild-281.png" class="js11 i15">
+</picture>
+</div>
+</div>
+<div class="v17 ps58 s72 c58">
+<picture class="i12">
+<source srcset="images/eingesetztes-bild-186.png 1x, images/eingesetztes-bild-372.png 2x">
+<img src="images/eingesetztes-bild-186.png" class="js12 i16">
+</picture>
+</div>
+</div>
+</div>
+<div class="c59">
+</div>
+<script>dpth="/";!function(){var s=["js/jquery.fdd256.js","js/jqueryui.fdd256.js","js/menu.fdd256.js","js/menu-dropdown-animations.fdd256.js","js/menu-dropdown.88a428.js","js/stickyfill.fdd256.js","js/iot.88a428.js"],n={},j=0,e=function(e){var o=new XMLHttpRequest;o.open("GET",s[e],!0),o.onload=function(){if(n[e]=o.responseText,7==++j)for(var t in s){var i=document.createElement("script");i.textContent=n[t],document.body.appendChild(i)}},o.send()};for(var o in s)e(o)}();
+</script>
+<script type="text/javascript">
+var ver=RegExp(/Mozilla\/5\.0 \(Linux; .; Android ([\d.]+)/).exec(navigator.userAgent);if(ver&&parseFloat(ver[1])<5){document.getElementsByTagName('body')[0].className+=' whitespacefix';}
+</script>
+</body>
+</html>
